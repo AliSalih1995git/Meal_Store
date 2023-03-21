@@ -1,0 +1,59 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.appHeader {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.pageContent {
+  display: flex;
+  flex: 1;
+  overflow-y: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+.cardContainer {
+  margin: 20px;
+  padding: 16px;
+}
+
+.singleImage {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.imageDescription {
+  margin-left: 200px;
+}
+.imageDescriptionContant {
+  max-height: 160px;
+  overflow: scroll;
+}
+
+.placeholderForm {
+  text-align: center;
+}
+
+.placeholderHeader {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.orderInfoContainer {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
